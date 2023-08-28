@@ -43,7 +43,7 @@ function Navbar() {
     <>
       <div id="close-button" className="navbarcon flex justify-between items-center px-20 py-4 bg-transparent z-40 text-white fixed w-full lg:py-3 tl:py-1 lg:px-14 tl:px-6">
         <HashLink smooth to="/#home" className="flex items-center">
-          <img src={logoNavbar} className="h-11 mr-3" alt="" />
+          <img src={logoNavbar} className="h-20 mr-3" alt="" />
           {/* <img className="w-[60px] h-[60px]" src={logoNavbar} alt="" /> */}
           <span className="self-center text-3xl font-mono whitespace-nowrap">E-Lance Tech</span>
         </HashLink>

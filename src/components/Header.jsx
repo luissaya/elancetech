@@ -22,7 +22,7 @@ function Header() {
           <button  className=' border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-4 rounded-2xl'>Welcome to my Portfolio</button>
         </div> */}
         {/* <h1 className='text-white text-5xl font-serif'>E-Lance Tech</h1> */}
-        <h1 className='text-white font-ibmplex text-5xl uppercase py-4 max-w-lg '>make reality your ideas</h1>
+        <h1 className='text-white font-ibmplex text-5xl uppercase py-4 max-w-lg '>Sculpting Tomorrow, One Line of Code at a Time</h1>
         {/* <button className='  text-white text-2xl'>Let's Connect <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i> </button> */}
         <div className='flex flex-row items-center pl-5 py-5'>
           <div className=" basis-1/3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125  duration-300">
