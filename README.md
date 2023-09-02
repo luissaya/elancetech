@@ -12,24 +12,33 @@ This project is a corporate website developed with React, Vite.js, and Tailwind 
 1. Clone this repository:
 
    ```shell
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git clone https://github.com/CharlyCS/elancetech.git
+   ```
+
 In your repository
+
 2. Navigate to the project directory:
+
     ```shell
-    cd YOUR_REPO
+    $ cd YOUR_REPO
+    ```
 3. Install project dependencies:
+
     ```shell
-    npm install
-    # Or using Yarn
-    yarn install
+    $ npm install
+    $ # Or using Yarn
+    $ yarn install
+    ```
 
 ## Running
 
 To run the application in a local development environment, use the following command:
+
     ```shell
-    npm run dev
-    # Or using Yarn
-    yarn dev
+    $ npm run dev
+    $ # Or using Yarn
+    $ yarn dev
+    ```
 
 This will start the development server, and you can access the application at http://localhost:3000 in your browser.
 
