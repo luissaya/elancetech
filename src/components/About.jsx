@@ -22,11 +22,7 @@ function About() {
           To born creative and ethical innovators relevant for academics, industry and society.
         </p>
         <div className="py-8 flex items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-        <HashLink
-          smooth
-          to="/aboutmore#aboutmore"
-          className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl"
-        >
+        <HashLink smooth to="/aboutmore#aboutmore" className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl">
           More
         </HashLink>
         </div>
