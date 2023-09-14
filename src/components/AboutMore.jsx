@@ -11,26 +11,30 @@ function AboutMore() {
           <div id='aboutmore' className="container flex justify-center mx-auto pt-16 px-10">
             <div>
               <p className='pt-12 pb-12'></p>
-              <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>about</h1>
+              <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-center uppercase'>about</h1>
               <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
-                E-Lance Tech has years of experience in IoT projects that involve PCB design, firmware development, sensors & actuators, low-power microcontrollers, wireless communication(WIFi, BLE, 4G, etc.),communication protocols like HTTP and MQTT and the use of machine learning. With always in mind the integration of the devices on the cloud. For our projects, we use microcontrollers like STM32(ARM Cortex M), AVR, PIC, and SoM(systems on modules) like Raspberry Pi or Jetson Nvidia in C/C++, Python, and MicroPython to achieve a trade-off between efficiency and easy maintainability.
-                </p>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
-                Passionate in electronic research has driven us to build innovative projects paralleling with today’s technology advancement that is made open source for the ease use of the public.
+                ElanceTech, we're your digital development partner. With a strong global presence, we specialize in providing cutting-edge IT services, leveraging our team of skilled professionals and a deep understanding of various industries. We offer a comprehensive range of services.
               </p>
-              
-
-              <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our mision</h1>
               <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
-                To deliver data and applications that remove obstacles of interaction between people and the physical world.
+                Including strategic consultancy, state-of-the-art technology solutions, application development, infrastructure support, and modernization of IT services. Our team of seasoned experts specializes in a diverse range of technology domains, including IoT, Cloud Computing, PCB Design, Machine Learning, and Firmware Development.
+              </p>
+              <p className='pt-8 pb-8 '></p>
+            </div>
+           </div> 
+
+          <div id='aboutmore123' className="container flex justify-center mx-auto pt-16 px-10 bg-white">
+            <div>
+              <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our mision</h1>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black'>
+                To deliver data and applications that simplify interaction between individuals and their physical surroundings, breaking down barriers and streamlining connections.
                 <br></br>
-                To share electronics knowledge and its real-life application.
+                We're dedicated to sharing our electronics expertise and demonstrating real-life applications to inspire and empower others.
                 <br></br>
-                To build innovative projects for the society.
+                Our focus is on developing projects that positively impact society, addressing real-world challenges and pioneering solutions.
               </p>
               <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our vision</h1>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
-              To born creative and ethical innovators relevant for academics, industry and society.
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black'>
+                We aspire to nurture individuals who are both creatively inspired and ethically grounded, making them highly relevant to academia, industry, and society. Our ultimate aim is to ignite the innovative spirit in the next generation.
               </p>
               <p className='pt-8 pb-8 '></p>
               

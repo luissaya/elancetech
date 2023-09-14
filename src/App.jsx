@@ -13,6 +13,11 @@ import Cloud from './components/Cloud'
 import Firmware from './components/Firmware'
 import IOT from './components/IOT'
 import MLearning from './components/MLearning'
+import Zigbee from './components/Zigbee'
+import Gateway from './components/Gateway'
+import Gpstracker from './components/Gpstracker'
+import Espserver from './components/Espserver'
+import Jetson from './components/Jetson'
 
 function App() {
   return (
@@ -29,6 +34,11 @@ function App() {
         <Route path='/firmware' element={<Firmware/>}/>
         <Route path='/iot' element={<IOT/>}/>
         <Route path='/mlearning' element={<MLearning/>}/>
+        <Route path='/zigbee' element={<Zigbee/>}/>
+        <Route path='/gateway' element={<Gateway/>}/>
+        <Route path='/gpstracker' element={<Gpstracker/>}/>
+        <Route path='/espserver' element={<Espserver/>}/>
+        <Route path='/jetson' element={<Jetson/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>

@@ -1,36 +1,27 @@
 import React from 'react'
-import "swiper/css";
-import "swiper/css/navigation";
-import "../styles.css";
 import luisphoto from '../assets/images/luisphoto.jpg'
 import fabriciophoto from '../assets/images/fabriciophoto.jpg'
 import angelophoto from '../assets/images/angelophoto.jpg'
 import photo from '../assets/images/photo.jpg'
 
-function Cloud() {
+function Espserver() {
   return (
-    <div className='bg-slate-600'>
+    <div className='bg-gradient-to-b from-slate-600 to-slate-300'>
 
-          <div id='cloud' className="container flex justify-center mx-auto pt-16 px-10 bg-sky-700">
+          <div id='espserver' className="container flex justify-center mx-auto pt-16 px-10">
             <div>
               <p className='pt-12 pb-12'></p>
-              <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-center uppercase'>about</h1>
-              <p className='mx-16 px-16 py-2 text-xl font-ibmplex text-justify text-white'>
-                E-lance Tech create scalable and secure cloud-based solutions to host applications, data, and services, offering flexibility and cost-efficiency. We design cloud architectures based on your workload requirements, utilizing models like microservices or serverless computing for optimal resource allocation. Our team will work closely with you to define the scope, choose the appropriate cloud service provider (e.g., AWS, Azure, GCP), and plan the infrastructure.
+              <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>about</h1>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
+                lalala firmware development, sensors & actuators, low-power microcontrollers, wireless communication(WIFi, BLE, 4G, etc.),communication protocols like HTTP and MQTT and the use of machine learning. With always in mind the integration of the devices on the cloud. For our projects, we use microcontrollers like STM32(ARM Cortex M), AVR, PIC, and SoM(systems on modules) like Raspberry Pi or Jetson Nvidia in C/C++, Python, and MicroPython to achieve a trade-off between efficiency and easy maintainability.
+                </p>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
+                Passionate in electronic research has driven us to build innovative projects paralleling with today’s technology advancement that is made open source for the ease use of the public.
               </p>
-              <p className='mx-16 px-16 py-2 text-xl font-ibmplex text-justify text-white'>
-                Beyond design, we assist in planning your cloud infrastructure for production, optimizing costs, and ensuring high availability. We'll help you scale seamlessly as your business grows.
-              </p>
-              <p className='mx-16 px-16 py-2 text-xl font-ibmplex text-justify text-white'>
-                We accompany you in your migration to the Cloud, ensuring a smooth transition. Our dedicated team monitors and manages your Cloud-based resources, ensuring optimal performance and cost-efficiency. This comprehensive approach ensures that your cloud infrastructure aligns with your industry's specific requirements.
-              </p>
-              <p className='pt-8 pb-8 '></p>
-              </div>
-          </div>              
-          <div id='cloud123' className="container flex justify-center mx-auto pt-16 px-10 bg-white">
-            <div>
+              
+
               <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our mision</h1>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black'>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
                 To deliver data and applications that remove obstacles of interaction between people and the physical world.
                 <br></br>
                 To share electronics knowledge and its real-life application.
@@ -38,7 +29,7 @@ function Cloud() {
                 To build innovative projects for the society.
               </p>
               <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our vision</h1>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black'>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
               To born creative and ethical innovators relevant for academics, industry and society.
               </p>
               <p className='pt-8 pb-8 '></p>
@@ -173,4 +164,4 @@ function Cloud() {
   )
 }
 
-export default Cloud
+export default Espserver
