@@ -78,6 +78,15 @@ function Projects() {
 
           <div className="grid grid-cols-2 p-10 justify-center items-center gap-8 lg:grid-cols-1">
             <div classname = "w-1/2">
+              <p className="text-center text-white-500">{"Our project focuses on the creation of an efficient air quality monitoring system utilizing Zigbee technology. Equipped with a network of sensors, this system can measure various air pollutants and environmental parameters in real time. The wireless Zigbee connectivity offers a cost-effective and scalable solution for managing air quality effectively."}</p>
+              <div className="py-8 flex items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+              <HashLink smooth to="/zigbee#zigbee" className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl">
+                More
+              </HashLink>
+              </div>
+            </div>
+            
+            <div classname = "w-full pl-16">
               <div className="img-box w-[450px] lg2:w-auto mx-auto flex justify-center items-center relative overflow-hidden rounded-3xl">
                   <img src={zigbee} alt="" className='w-full' />
                   <div className="p absolute top-[-100%] left-0 h-full w-full text-center p-4 pt-20 bg-gradient-to-b from-blue-600 to-purple-500">
@@ -85,14 +94,6 @@ function Projects() {
                     <p className="font-bold">{"Design"}</p>
                   </div>
               </div>
-            </div>
-            <div classname = "w-full pl-16">
-              <p className="text-center text-white-500">{"Our project focuses on the creation of an efficient air quality monitoring system utilizing Zigbee technology. Equipped with a network of sensors, this system can measure various air pollutants and environmental parameters in real time. The wireless Zigbee connectivity offers a cost-effective and scalable solution for managing air quality effectively."}</p>
-              <div className="py-8 flex items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <HashLink smooth to="/zigbee#zigbee" className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl">
-                More
-              </HashLink>
-              </div>          
             </div>
           </div>
 
@@ -119,22 +120,24 @@ function Projects() {
 
 
           <div className="grid grid-cols-2 p-10 justify-center items-center gap-8 lg:grid-cols-1">
+            
             <div classname = "w-1/2">
+              <p className="text-center text-white-500">{"Our project centers around the development of an ESP32-based server capable of efficiently handling serial port requests. This server acts as a bridge between devices and applications that require serial communication, facilitating seamless data exchange and control in IoT and automation scenarios."}</p>
+              <div className="py-8 flex items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+              <HashLink smooth to="/espserver#espserver" className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl">
+                More
+              </HashLink>
+              </div>
+              
+            </div>
+            <div classname = "w-full pl-16">
               <div className="img-box w-[450px] lg2:w-auto mx-auto flex justify-center items-center relative overflow-hidden rounded-3xl">
                   <img src={espserver} alt="" className='w-full' />
                   <div className="p absolute top-[-100%] left-0 h-full w-full text-center p-4 pt-20 bg-gradient-to-b from-blue-600 to-purple-500">
                     <h1 className="font-bold text-3xl">{"ESP32 Server with serial port requests"}</h1>
                     <p className="font-bold">{"Design & Development"}</p>
                   </div>
-              </div>
-            </div>
-            <div classname = "w-full pl-16">
-              <p className="text-center text-white-500">{"Our project centers around the development of an ESP32-based server capable of efficiently handling serial port requests. This server acts as a bridge between devices and applications that require serial communication, facilitating seamless data exchange and control in IoT and automation scenarios."}</p>
-              <div className="py-8 flex items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <HashLink smooth to="/espserver#espserver" className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl">
-                More
-              </HashLink>
-              </div>          
+              </div>            
             </div>
           </div>
 
