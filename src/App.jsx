@@ -18,6 +18,8 @@ import Gateway from './components/Gateway'
 import Gpstracker from './components/Gpstracker'
 import Espserver from './components/Espserver'
 import Jetson from './components/Jetson'
+import Pic18f4550 from './components/Pic18f4550'
+import MPOST from './components/MPOST'
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route path='/gpstracker' element={<Gpstracker/>}/>
         <Route path='/espserver' element={<Espserver/>}/>
         <Route path='/jetson' element={<Jetson/>}/>
+        <Route path='/pic18f4550' element={<Pic18f4550/>}/>
+        <Route path='/mpost' element={<MPOST/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
