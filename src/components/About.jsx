@@ -19,14 +19,10 @@ function About() {
         <p className="text-7xl px-6 py-3 font-ibmplex text-center text-white tl:text-5xl">
           {/* To promote exceptional interaction between people and the spaces they
           occupy, creating a productive, enjoyable place to be in every day. */}
-          To born creative and ethical innovators relevant for academics, industry and society.
+          To empower limitless innovation, transcending boundaries in engineering, software, and technology.
         </p>
         <div className="py-8 flex items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-        <HashLink
-          smooth
-          to="/aboutmore#aboutmore"
-          className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl"
-        >
+        <HashLink smooth to="/aboutmore#aboutmore" className="text-white border-[1px] border-white border-solid py-1 px-8 hover:bg-white hover:text-black font-bold text-2xl">
           More
         </HashLink>
         </div>
