@@ -24,11 +24,11 @@ In your repository
     ```
 3. Install project dependencies:
 
-    ```shell
+    ´´´shell
     npm install
     ## Or using Yarn
     yarn install
-    ```
+    ´´´
 
 ## Running
 
