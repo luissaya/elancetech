@@ -34,7 +34,7 @@ In your repository
 
 To run the application in a local development environment, use the following command:
 
-    ```shell
+    ```bash
     npm run dev
     #Or using Yarn
     yarn dev
