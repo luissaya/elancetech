@@ -33,14 +33,8 @@ In your repository
 ## Running
 
 To run the application in a local development environment, use the following command:
-    
-    ´´´shell
-    npm run dev
-    # Or using Yarn
-    yarn dev
-    ´´´ 
 
-This will start the development server, and you can access the application at http://localhost:3000 in your browser.
+- This will start the development server, and you can access the application at http://localhost:3000 in your browser.
 
 
 ## About E-Lance Tech
