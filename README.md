@@ -20,14 +20,14 @@ In your repository
 2. Navigate to the project directory:
 
     ```shell
-    $ cd YOUR_REPO
+    cd YOUR_REPO
     ```
 3. Install project dependencies:
 
     ```shell
-    $ npm install
-    $ # Or using Yarn
-    $ yarn install
+    npm install
+    # Or using Yarn
+    yarn install
     ```
 
 ## Running
@@ -35,9 +35,9 @@ In your repository
 To run the application in a local development environment, use the following command:
 
     ```shell
-    $ npm run dev
-    $ # Or using Yarn
-    $ yarn dev
+    npm run dev
+    #Or using Yarn
+    yarn dev
     ```
 
 This will start the development server, and you can access the application at http://localhost:3000 in your browser.
