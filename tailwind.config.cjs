@@ -6,6 +6,7 @@ module.exports = {
       'lg2': {'max': '1623px'},
       'lg': {'max': '1023px'},
       'tl': {'max': '723px'},
+      'tablet': {'max': '500px'}, 
       },
     extend: {
       backgroundImage: {

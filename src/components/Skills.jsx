@@ -63,8 +63,8 @@ function Skills() {
                 {" "}
                 <HashLink smooth to="/pcbdesign#pcbdesign">
                 <div className=" bg-slate-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                  <div className="h-[20rem] py-10">
-                  <img className="w-full" src={pcb} alt="" />
+                  <div className="h-[20rem] p-10  tablet:h-[15rem] tablet:p-16 ">
+                  <img src={pcb} alt="" />
                     {/*<HashLink smooth to = "/#pcbdesign">
                       <img className="w-full" src={pcb} alt="" />
             </HashLink>*/}
@@ -80,8 +80,8 @@ function Skills() {
                 {" "}
                 <HashLink smooth to="/firmware#firmware">
                 <div className=" bg-slate-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                  <div className="h-[20rem] p-10">
-                  <img src={chip} alt="" />
+                  <div className="h-[20rem] p-10  tablet:h-[15rem] tablet:p-16 ">
+                  <img src={chip} alt=""  />
                   </div>
                   <h1 className="font-bold text-2xl pb-4">Firmware</h1>
                 </div>
@@ -91,8 +91,8 @@ function Skills() {
                 {" "}
                 <HashLink smooth to="/cloud#cloud">
                 <div className=" bg-slate-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                  <div className="h-[20rem] p-10">
-                  <img src={cloud} alt="" />
+                  <div className="h-[20rem] p-10  tablet:h-[15rem] tablet:p-16 ">
+                  <img src={cloud} alt="" className="w-full h-full object-cover object-center"/>
                   </div>
                   <h1 className="font-bold text-2xl pb-4">Cloud integration</h1>
                 </div>
@@ -102,8 +102,8 @@ function Skills() {
                 {" "}
                 <HashLink smooth to="/iot#iot">
                 <div className=" bg-slate-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                  <div className="h-[20rem] p-10">
-                  <img src={iot} alt="" />
+                  <div className="h-[20rem] p-10  tablet:h-[15rem] tablet:p-16 ">
+                  <img src={iot} alt="" className="w-full h-full object-fit" />
                   </div>
                   <h1 className="font-bold text-2xl pb-4">IoT</h1>
                 </div>
@@ -113,8 +113,8 @@ function Skills() {
                 {" "}
                 <HashLink smooth to="/mlearning#mlearning">
                 <div className=" bg-slate-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                  <div className="h-[20rem] p-10">
-                  <img src={mlearning} alt="" />
+                  <div className="h-[20rem] p-10  tablet:h-[15rem] tablet:p-16 ">
+                  <img src={mlearning} alt="" className="w-full h-full object-contain" />
                   </div>
                   <h1 className="font-bold text-2xl pb-4">Machine Learning</h1>
                 </div>
