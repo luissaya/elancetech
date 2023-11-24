@@ -28,7 +28,7 @@ function App() {
       <ScrollToTop/>
       <Navbar/> 
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/elancetech' element={<Home/>}/>
         <Route path='/knowledge' element={<Knowledge/>}/>
         <Route path='/aboutmore' element={<AboutMore/>}/>
         <Route path='/skills' element={<Skills/>}/>
