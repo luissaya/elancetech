@@ -21,11 +21,12 @@ import Jetson from './components/Jetson'
 import Pic18f4550 from './components/Pic18f4550'
 import MPOST from './components/MPOST'
 
+
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop/>
-      <Navbar/>    
+      <Navbar/> 
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/knowledge' element={<Knowledge/>}/>
