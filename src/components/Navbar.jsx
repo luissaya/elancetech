@@ -54,22 +54,22 @@ function Navbar() {
         >
           <ul className=" flex gap-10 text-xl mr-4 lg:flex-col lg:gap-5 ">
             <li className="bla">
-              <HashLink smooth to="/#home">
+              <HashLink smooth to="/elancetech#home">
                 Home
               </HashLink>
             </li>
             <li className="bla">
-              <HashLink smooth to="/#about">
+              <HashLink smooth to="/elancetech#about">
                 About
               </HashLink>
             </li>
             <li className="bla">
-              <HashLink smooth to="/#skills">
+              <HashLink smooth to="/elancetech#skills">
                 Services
               </HashLink>
             </li>
             <li className="bla">
-              <HashLink smooth to="/#projects">
+              <HashLink smooth to="/elancetech#projects">
                 Projects
               </HashLink>
             </li>
@@ -98,7 +98,7 @@ function Navbar() {
             </a>
           </div> */}
           <div className="btn">
-            <HashLink smooth to="/#contact" scroll={scrollWithOffset}>
+            <HashLink smooth to="/elancetech#contact" scroll={scrollWithOffset}>
               <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold lg:mt-4">
                 Contact
               </button>
