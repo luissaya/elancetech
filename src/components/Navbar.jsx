@@ -42,7 +42,7 @@ function Navbar() {
   return (
     <>
       <div id="close-button" className="navbarcon flex justify-between items-center px-20 py-4 bg-transparent z-40 text-white fixed w-full lg:py-3 tl:py-1 lg:px-14 tl:px-6">
-        <HashLink smooth to="/#home" className="flex items-center">
+        <HashLink smooth to="/elancetech#home" className="flex items-center">
           <img src={logoNavbar} className="h-20 mr-3" alt="" />
           {/* <img className="w-[60px] h-[60px]" src={logoNavbar} alt="" /> */}
           <span className="self-center text-3xl font-mono whitespace-nowrap">E-Lance Tech</span>
@@ -54,22 +54,22 @@ function Navbar() {
         >
           <ul className=" flex gap-10 text-xl mr-4 lg:flex-col lg:gap-5 ">
             <li className="bla">
-              <HashLink smooth to="/#home">
+              <HashLink smooth to="/elancetech#home">
                 Home
               </HashLink>
             </li>
             <li className="bla">
-              <HashLink smooth to="/#about">
+              <HashLink smooth to="/elancetech#about">
                 About
               </HashLink>
             </li>
             <li className="bla">
-              <HashLink smooth to="/#skills">
+              <HashLink smooth to="/elancetech#skills">
                 Services
               </HashLink>
             </li>
             <li className="bla">
-              <HashLink smooth to="/#projects">
+              <HashLink smooth to="/elancetech#projects">
                 Projects
               </HashLink>
             </li>
@@ -98,7 +98,7 @@ function Navbar() {
             </a>
           </div> */}
           <div className="btn">
-            <HashLink smooth to="/#contact" scroll={scrollWithOffset}>
+            <HashLink smooth to="/elancetech#contact" scroll={scrollWithOffset}>
               <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold lg:mt-4">
                 Contact
               </button>
