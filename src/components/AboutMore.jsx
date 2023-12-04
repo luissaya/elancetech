@@ -11,11 +11,11 @@ function AboutMore() {
           <div id='aboutmore' className="container flex justify-center mx-auto pt-16 px-10">
             <div>
               <p className='pt-12 pb-12'></p>
-              <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-center uppercase'>about</h1>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
+              <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-center uppercase tablet:mx-2 px-2'>about</h1>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white tablet:mx-2 px-2'>
                 ElanceTech, we're your digital development partner. With a strong global presence, we specialize in providing cutting-edge IT services, leveraging our team of skilled professionals and a deep understanding of various industries. We offer a comprehensive range of services.
               </p>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white'>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white tablet:mx-2 px-2'>
                 Including strategic consultancy, state-of-the-art technology solutions, application development, infrastructure support, and modernization of IT services. Our team of seasoned experts specializes in a diverse range of technology domains, including IoT, Cloud Computing, PCB Design, Machine Learning, and Firmware Development.
               </p>
               <p className='pt-8 pb-8 '></p>
@@ -24,16 +24,16 @@ function AboutMore() {
 
           <div id='aboutmore123' className="container flex justify-center mx-auto pt-16 px-10 bg-white">
             <div>
-              <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our mision</h1>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black'>
+              <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase tablet:mx-2 px-2'>our mision</h1>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black tablet:mx-2 px-2'>
                 To deliver data and applications that simplify interaction between individuals and their physical surroundings, breaking down barriers and streamlining connections.
                 <br></br>
                 We're dedicated to sharing our electronics expertise and demonstrating real-life applications to inspire and empower others.
                 <br></br>
                 Our focus is on developing projects that positively impact society, addressing real-world challenges and pioneering solutions.
               </p>
-              <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase'>our vision</h1>
-              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black'>
+              <h1 className='mt-8 mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-left uppercase tablet:mx-2 px-2'>our vision</h1>
+              <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-black tablet:mx-2 px-2'>
                 We aspire to nurture individuals who are both creatively inspired and ethically grounded, making them highly relevant to academia, industry, and society. Our ultimate aim is to ignite the innovative spirit in the next generation.
               </p>
               <p className='pt-8 pb-8 '></p>
@@ -78,11 +78,11 @@ function AboutMore() {
                   <div className="">
                     <div className=" w-full flex relative justify-center">
                       <div className="h-60 w-60">
-                        <img src={fabriciophoto} alt="Display Picture of Andres Berlin" role="img" className="rounded-md object-cover h-full w-full shadow-md" />
+                        <img src={photo} alt="Display Picture of Andres Berlin" role="img" className="rounded-md object-cover h-full w-full shadow-md" />
                       </div>
                     </div>
                     <div className="px-6 mt-5 rounded overflow-hidden shadow-md bg-white pt-4">
-                      <h1 className="font-bold text-3xl text-center mb-1">Fabricio Puente</h1>
+                      <h1 className="font-bold text-3xl text-center mb-1">Renato Mansilla</h1>
                       <p className="text-gray-800 text-sm text-center">COO & Co Founder</p>
                       {/* <p className="text-center text-gray-600 text-base pt-3 font-normal">The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.</p> */}
                       <div className="w-full flex justify-center pt-5 pb-5">
@@ -138,7 +138,7 @@ function AboutMore() {
                       </div>
                     </div>
                     <div className="px-6 mt-5 rounded overflow-hidden shadow-md bg-white pt-4">
-                      <h1 className="font-bold text-3xl text-center mb-1">Gustavo Boza</h1>
+                      <h1 className="font-bold text-3xl text-center mb-1">Alonso Quispe</h1>
                       <p className="text-gray-800 text-sm text-center">CKO</p>
                       {/* <p className="text-center text-gray-600 text-base pt-3 font-normal">The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.</p> */}
                       <div className="w-full flex justify-center pt-5 pb-5">
