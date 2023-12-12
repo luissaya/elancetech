@@ -9,46 +9,46 @@ function About() {
   return (
     <>
       <div id="about" style={{ backgroundImage: `url(${bg})` }} className="wrapper h-full bg-no-repeat bg-center bg-cover px-16 lg:px-10 tl:px-4"> 
-        <div className="grid grid-cols-2 p-4 justify-center items-center gap-8">
+        <div className="grid grid-cols-2 p-4 justify-center items-center gap-8 tablet:grid tablet:grid-cols-1">
           <div className="w-full order-1">
-            <div className="grid grid-cols-2 p-4 justify-center items-center gap-20">
+            <div className="grid grid-cols-2 p-4 justify-center items-center gap-20 tablet:grid tablet:grid-cols-1">
 
               <div className="w-full">
                 <div className="box-border w-50 h-60 rounded-2xl justify-center items-center relative bg-black">
-                  <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white"  >Clients</h1>
+                  <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Clients</h1>
                   <p className="font-bold text-8xl px-6 text-center text-blue-800 " style={{fontWeight:'600'}}>5</p>
-                  <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white"  >clients that we have from across the world</p>
+                  <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">clients that we have from across the world</p>
                 </div>
               </div>
 
               <div className="w-full">
                 <div className="shadow-md w-50 h-60 rounded-2xl justifsy-center items-center relative bg-black">
-                <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white">Growth</h1>
+                <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Growth</h1>
                 <h1 className="font-bold text-7xl px-6 py-2 text-center text-amber-400 " style={{fontWeight:'600'}}>100%</h1>
-                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white"  >of our clients comment that their business grew with our service</p>
+                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">of our clients comment that their business grew with our service</p>
                 </div>
               </div>
 
               <div className="w-full">
                 <div className="shadow-md w-50 h-60 rounded-2xl justifsy-center items-center relative bg-black">
-                <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white">Projects</h1>
+                <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Projects</h1>
                 <h1 className="font-bold text-7xl px-6 py-2 text-center text-red-700 " style={{fontWeight:'600'}}>4000</h1>
-                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white"  >hours of training acquired from each employee</p>
+                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">hours of training acquired from each employee</p>
                 </div>
               </div>
 
               <div className="w-full">
                 <div className="shadow-md w-50 h-60 rounded-2xl justifsy-center items-center relative bg-black">
-                <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white">Collaborations</h1>
+                <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Collaborations</h1>
                 <h1 className="font-bold text-8xl px-6 text-center text-green-800 " style={{fontWeight:'600'}}>20</h1>
-                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white"  >companies works with us to build a good service</p>
+                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">companies works with us to build a good service</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="w-full order-2">
             <h1 className="py-5 text-7xl font-ibmplex text-center text-white uppercase tl:text-6xl">our purpose</h1>
-            <p className="text-5xl px-6 py-3 font-ibmplex text-right text-white tl:text-5xl">
+            <p className="text-5xl px-6 py-3 font-ibmplex text-right text-white tl:text-5xl tablet:text-center">
               {/* To promote exceptional interaction between people and the spaces they
               occupy, creating a productive, enjoyable place to be in every day. */}
               To empower limitless innovation, transcending boundaries in engineering, software, and technology.
