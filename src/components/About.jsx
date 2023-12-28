@@ -16,7 +16,7 @@ function About() {
               <div className="w-full">
                 <div className="box-border w-50 h-60 rounded-2xl justify-center items-center relative bg-black">
                   <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Clients</h1>
-                  <p className="font-bold text-8xl px-6 text-center text-blue-800 " style={{fontWeight:'600'}}>5</p>
+                  <p className="font-bold text-8xl px-6 text-center text-blue-800 " style={{fontWeight:'600'}}>20</p>
                   <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">clients that we have from across the world</p>
                 </div>
               </div>
@@ -24,7 +24,7 @@ function About() {
               <div className="w-full">
                 <div className="shadow-md w-50 h-60 rounded-2xl justifsy-center items-center relative bg-black">
                 <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Growth</h1>
-                <h1 className="font-bold text-7xl px-6 py-2 text-center text-amber-400 " style={{fontWeight:'600'}}>100%</h1>
+                <h1 className="font-bold text-7xl px-6 py-2 text-center text-amber-400 " style={{fontWeight:'600'}}>95%</h1>
                 <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">of our clients comment that their business grew with our service</p>
                 </div>
               </div>
@@ -32,15 +32,15 @@ function About() {
               <div className="w-full">
                 <div className="shadow-md w-50 h-60 rounded-2xl justifsy-center items-center relative bg-black">
                 <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Projects</h1>
-                <h1 className="font-bold text-7xl px-6 py-2 text-center text-red-700 " style={{fontWeight:'600'}}>4000</h1>
-                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">hours of training acquired from each employee</p>
+                <h1 className="font-bold text-8xl px-6 py-2 text-center text-red-700 " style={{fontWeight:'600'}}>24</h1>
+                <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">completed succesfully </p>
                 </div>
               </div>
 
               <div className="w-full">
                 <div className="shadow-md w-50 h-60 rounded-2xl justifsy-center items-center relative bg-black">
                 <h1 className="font-bold text-lg px-6 py-3 font-ibmplex text-center text-white tablet:text-4xl">Collaborations</h1>
-                <h1 className="font-bold text-8xl px-6 text-center text-green-800 " style={{fontWeight:'600'}}>20</h1>
+                <h1 className="font-bold text-8xl px-6 text-center text-green-800 " style={{fontWeight:'600'}}>3</h1>
                 <p className="font-bold text-sm px-6 py-3 font-ibmplex text-left text-white tablet:text-lg">companies works with us to build a good service</p>
                 </div>
               </div>

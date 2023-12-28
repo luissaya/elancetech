@@ -20,7 +20,7 @@ function AboutMore() {
               </p>
               <p className='pt-8 pb-8 '></p>
             </div>
-           </div> 
+          </div> 
 
           <div id='aboutmore123' className="container flex justify-center mx-auto pt-16 px-10 bg-white">
             <div>
