@@ -28,7 +28,7 @@ function App() {
       <ScrollToTop/>
       <Navbar/> 
       <Routes>
-        <Route path='/elancetech' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/knowledge' element={<Knowledge/>}/>
         <Route path='/aboutmore' element={<AboutMore/>}/>
         <Route path='/skills' element={<Skills/>}/>
@@ -44,7 +44,7 @@ function App() {
         <Route path='/jetson' element={<Jetson/>}/>
         <Route path='/pic18f4550' element={<Pic18f4550/>}/>
         <Route path='/mpost' element={<MPOST/>}/>
-        <Route path='*' element={<NotFound/>}/>
+        <Route path='/*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

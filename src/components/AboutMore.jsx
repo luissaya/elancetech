@@ -13,7 +13,7 @@ function AboutMore() {
               <p className='pt-12 pb-12'></p>
               <h1 className='mx-10 px-10 py-5 text-4xl font-ibmplex font-semibold text-center uppercase tablet:mx-2 px-2'>about</h1>
               <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white tablet:mx-2 px-2'>
-                ElanceTech, we're your digital development partner. With a strong global presence, we specialize in providing cutting-edge IT services, leveraging our team of skilled professionals and a deep understanding of various industries. We offer a comprehensive range of services.
+                ELanceTec, we're your digital development partner. With a strong global presence, we specialize in providing cutting-edge IT services, leveraging our team of skilled professionals and a deep understanding of various industries. We offer a comprehensive range of services.
               </p>
               <p className='mx-10 px-10 py-2 text-2xl font-ibmplex text-justify text-white tablet:mx-2 px-2'>
                 Including strategic consultancy, state-of-the-art technology solutions, application development, infrastructure support, and modernization of IT services. Our team of seasoned experts specializes in a diverse range of technology domains, including IoT, Cloud Computing, PCB Design, Machine Learning, and Firmware Development.
