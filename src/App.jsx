@@ -20,7 +20,7 @@ import Espserver from './components/Espserver'
 import Jetson from './components/Jetson'
 import Pic18f4550 from './components/Pic18f4550'
 import MPOST from './components/MPOST'
-
+import Projectpage from './components/projectpage'
 
 function App() {
   return (
@@ -44,6 +44,7 @@ function App() {
         <Route path='/jetson' element={<Jetson/>}/>
         <Route path='/pic18f4550' element={<Pic18f4550/>}/>
         <Route path='/mpost' element={<MPOST/>}/>
+        <Route path='/projectpage' element={<Projectpage/>}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
