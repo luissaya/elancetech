@@ -142,7 +142,7 @@ function NotFound() {
                   deleted or does not exist.
                 </p>
                 <HashLink smooth
-                  to="/elancetech#home"
+                  to="/#home"
                   className="rounded-md bg-primary py-3 px-8 text-base font-bold text-white shadow-signUp duration-300 hover:bg-gray-400 hover:text-primary md:px-9 lg:px-8 xl:px-9 bg-gray-700"
                 >
                   Back to Homepage
