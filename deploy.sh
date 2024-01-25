@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-#echo 'elancetec.com' > CNAME
+echo 'elancetec.com' > CNAME
 
 # creating a git repo in the build folder
 git init
@@ -24,3 +24,4 @@ git commit -m 'deploy'
 #git push -f git@github.com:luissaya/elancetech.git master:gh-pages
 
 #cd -
+
