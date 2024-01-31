@@ -1,5 +1,9 @@
 const particlesConfig =
     {
+        fullscreen:{
+          enable:true,
+          zIndex: 9999
+        },
         particles: {
           number: {
             value: 100,
