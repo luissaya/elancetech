@@ -7,8 +7,44 @@ import "../styles.css"
 import fiverr from '../assets/images/fiverr-icon.svg'
 import freelancer from '../assets/images/freelancer-icon.svg'
 import upwork from '../assets/images/upwork-icon.svg'
+import { useEffect } from 'react';
 
 function Header() {
+  useEffect(() => {
+    const movableImage = document.getElementById("movable-image");
+
+    function moveRandomly() {
+      const maxX = window.innerWidth / 2 - movableImage.clientWidth;
+      const maxY = window.innerHeight - movableImage.clientHeight;
+
+      const randomX = Math.floor(Math.random() * maxX) + window.innerWidth / 2;
+      const randomY = Math.floor(Math.random() * maxY);
+
+      movableImage.style.left = `${randomX}px`;
+      movableImage.style.top = `${randomY}px`;
+    }
+
+    function moveWithMouse(event) {
+      const mouseX = event.clientX;
+      const mouseY = event.clientY;
+
+      movableImage.style.left = `${Math.max(window.innerWidth / 2, mouseX)}px`;
+      movableImage.style.top = `${mouseY}px`;
+    }
+
+    moveRandomly();
+
+    movableImage.addEventListener("click", moveRandomly);
+
+    document.addEventListener("mousemove", moveWithMouse);
+
+    return () => {
+      movableImage.removeEventListener("click", moveRandomly);
+      document.removeEventListener("mousemove", moveWithMouse);
+    };
+  }, []);
+
+
   return (
   <>
   <div 
@@ -40,7 +76,6 @@ function Header() {
               <img className='h-24 w-24' src={fiverr} alt="" />
             </a>
         </div>
-
         </div>
         
       </div>
@@ -49,8 +84,8 @@ function Header() {
       <img className='w-96 ast-img' src={logo1} alt="" />
       </div> */}
 
-      <div className="image banner-astronout1 lg:hidden absolute w-[300px] flex ">
-      <img className='w-96 ast-img' src={logo} alt="" />
+      <div className="image lg:hidden absolute w-[300px] flex " id="movable-image">
+      <img className='w-96 ast-img' src={logo} alt="Movable Logo" />
       </div>
    
     </div>

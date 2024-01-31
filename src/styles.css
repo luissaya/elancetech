@@ -65,6 +65,32 @@ swiper {
   }
 }
 
+#movable-image {
+  position: absolute;
+  width: 300px; /* Ajusta el tamaño según tus necesidades */
+}
+
+#polygon {
+  float: left;
+  width: 800px;
+  height: 500px;
+  shape-outside: polygon(
+      0 0,
+      80% 0,
+      100% 50%,
+      80% 100%,
+      0 100%
+  );
+  clip-path: polygon(
+      0 0,
+      80% 0,
+      100% 50%,
+      80% 100%,
+      0 100%
+  );
+
+}
+
 
 @keyframes astronout {
   0% {

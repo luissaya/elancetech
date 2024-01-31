@@ -24,7 +24,9 @@
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.8.9",
     "react-toastify": "^9.1.1",
-    "swiper": "^8.4.6"
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^8.4.6",
+    "tsparticles": "^2.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

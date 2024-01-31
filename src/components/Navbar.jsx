@@ -19,17 +19,16 @@ function Navbar() {
   };
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 80 ||
-      document.documentElement.scrollTop > 80
-    ) {
-      document.querySelector(".navbarcon").style.backgroundColor = "#171717";
-    } else {
-      document.querySelector(".navbarcon").style.backgroundColor =
-        "rgba(0, 0, 0, 0)";
-      document.querySelector(".tl").style.backgroundColor = "rgba(0, 0, 0, 0)";
+    const navbar = document.querySelector(".navbarcon");
+    if (navbar) {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        navbar.style.backgroundColor = "#171717";
+      } else {
+        navbar.style.backgroundColor = "rgba(0, 0, 0, 0)";
+      }
     }
   }
+  
 
   //////////////////////////////////
   const scrollWithOffset = (el) => {

@@ -16,7 +16,8 @@ module.exports = {
     },
 
     fontFamily: {
-      'ibmplex': ['IBM Plex Serif', 'serif']
+      'ibmplex': ['IBM Plex Serif', 'serif'],
+      'playfair': ['Playfair Display', 'serif']
     }
 
   },
